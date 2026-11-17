@@ -292,8 +292,7 @@ Open `package.json` and change the `scripts` section to:
 ```json
 "scripts": {
   "build": "tsc",
-  "start": "node dist/main.js",
-  "start:dev": "ts-node-dev --respawn src/main.ts"
+  "start": "node dist/main.js"
 }
 ```
 
@@ -301,12 +300,12 @@ Open `package.json` and change the `scripts` section to:
 | --- | --- |
 | `npm run build` | Compiles TypeScript from `src/` into `dist/` |
 | `npm start` | Runs the compiled app (`build` first) |
-| `npm run start:dev` | Runs the TypeScript source directly and **restarts when files change** |
 
 ## 11. Start NestJS
 
 ```bash
-npm run start:dev
+npm run build
+npm run start
 ```
 
 You should see output similar to:
