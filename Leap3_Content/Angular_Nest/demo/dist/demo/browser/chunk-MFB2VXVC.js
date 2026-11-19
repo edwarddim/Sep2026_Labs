@@ -1,0 +1,1 @@
+import{na as n,ta as o,ua as i,va as a}from"./chunk-JLIVYX3G.js";var r=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-profile"]],decls:2,vars:0,template:function(e,l){e&1&&(o(0,"p"),a(1,"profile works!"),i())},encapsulation:2})};export{r as Profile};

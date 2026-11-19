@@ -1,0 +1,11 @@
+<h1>Get profile</h1>
+
+
+<form (submit)="$event.preventDefault(); onSearch()">
+    <input type="text" placeholder="Enter Email"
+    [formField] = "searchForm.email"
+    >
+    <button type="submit">Search</button>
+</form>
+
+<div>{{data().city}}</div>

@@ -1,0 +1,12 @@
+<h1>Login</h1>
+
+
+<form (submit)="$event.preventDefault(); login()">
+    <input type="text" placeholder="Enter USername"
+    [formField] = "userForm.username"
+    >
+    <input type="text" placeholder="Enter password"
+    [formField] = "userForm.password"
+    >
+    <button type="submit">Search</button>
+</form>
